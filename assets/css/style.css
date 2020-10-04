@@ -218,6 +218,11 @@ img {
   #img10 {
   	 padding: 0px 10px;
   }
+  @media screen and (max-width: 413px)
+ {
+  #img10 {
+  	 height:60vh
+  }
   .story-block {
 
 	margin-top: 15px;
@@ -1677,7 +1682,7 @@ tr {
 	margin-bottom:25px;
 }
 
-.map{
+/* .map{
 	height: 65vh;
 	padding-left: 80px;
 	padding-right: 80px;
@@ -1691,6 +1696,24 @@ tr {
 	margin-left: -50px;
 	margin-right: -50px;
 	padding-bottom: 30px;
+	}
+
+} */
+.map iframe{
+	
+	width: 100%;
+    min-height: 450px;
+    border: none;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+    
+}
+@media (max-width:650px){
+	.map iframe{
+	
+	padding-bottom: 30px;
+	
 	}
 
 }
